@@ -1,0 +1,95 @@
+body { background-color: #336699; color: #333; }
+
+body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:   13px;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a { color: #000; }
+a:visited { color: #666; }
+a:hover { color: #fff; background-color:#000; }
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+.block {
+	border: #000 solid 4px; /*Testing Only*/
+}
+
+.subtest {
+	border: #900 solid 2px; /* Testing Only */
+}
+
+#wrapper {
+	width: 700px;
+	margin: 20px auto 10px auto;
+	padding: 10px 10px 10px 10px;
+	background-color: #fff;
+	border: #000 solid 3px;
+}
+
+#status {
+	float: right;
+	display: inline;
+	margin-right: 5px;
+}
+
+#address {
+	margin-left: 5px
+	
+}
+
+#servername {
+	margin-left: 5px;
+}
+
+#description {
+	margin-left: 5px;
+}
+
+#iplist {
+	
+	
+}

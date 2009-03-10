@@ -1,0 +1,21 @@
+
+
+<% for static_ip in @static_ips %>
+  <div id="iplist">
+    <div id="status">
+    	<%= format_online_status(static_ip.online) %> |
+		<%= format_available_status(static_ip.available) %>
+	</div>
+	<div id="address">
+		<%= link_to static_ip.address, edit_static_ip_path(static_ip) %> | 
+    	<%=h static_ip.outside_ip%>
+	</div>
+	<div id="servername"><em><%=h format_AD_member_server(static_ip.servername) %></em></div>
+	<div id="description"><%=h static_ip.description %></p></div>
+  </div><hr />
+<% end %>
+
+
+<br />
+
+

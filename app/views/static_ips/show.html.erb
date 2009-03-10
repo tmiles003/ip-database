@@ -1,0 +1,18 @@
+<p>
+  <b>Address:</b>
+  <%=h @static_ip.address %>
+</p>
+
+<p>
+  <b>Servername:</b>
+  <%=h @static_ip.servername %>
+</p>
+
+<p>
+  <b>Available:</b>
+  <%=h @static_ip.available %>
+</p>
+
+
+<%= link_to 'Edit', edit_static_ip_path(@static_ip) %> |
+<%= link_to 'Back', static_ips_path %>
