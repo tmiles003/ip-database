@@ -1,0 +1,11 @@
+<div id="search">
+	<h2>DNS Lookup</h2>
+	
+	<% form_remote_tag(:update => 'results', :url => {:action => :search }) do -%>
+		<%= text_field_tag 'search', nil, :size => 50 %>&nbsp<%= submit_tag 'Search'%>
+	<% end -%>	
+</div>
+
+<div id="results">
+	
+</div>

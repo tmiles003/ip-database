@@ -82,10 +82,5 @@ class StaticIpsController < ApplicationController
       format.xml  { head :ok }
     end 
   end
-  
-#  def resolvIP
-#    dnsquery = Socket.getaddrinfo(static_ip.address, nil)
-#    dnsname = dnsquery[0][2]
-#  end
-  
+    
 end
