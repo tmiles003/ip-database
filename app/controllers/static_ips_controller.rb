@@ -81,6 +81,5 @@ class StaticIpsController < ApplicationController
       format.html { redirect_to(static_ips_url) }
       format.xml  { head :ok }
     end 
-  end
-    
+  end   
 end

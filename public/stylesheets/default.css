@@ -109,10 +109,8 @@ a:hover { color: #fff; background-color:#000; }
 }
 
 #content {
-	margin: 20px auto 10px auto;
-	padding: 10px 10px 10px 10px;
-	background-color: #fff;
-	border: #000 solid 3px;
+
+	
 }
 
 #header {
@@ -122,5 +120,21 @@ a:hover { color: #fff; background-color:#000; }
 }
 
 #search {
-	text-align: center;
+	text-align: center;	
+	
+}
+
+#network {
+	margin: 20px auto 5px auto;
+	padding: 10px 10px 10px 10px;
+	background-color: #fff;
+	border: #000 solid 3px;
+	
+}
+
+#subnet {
+	margin: 0 0 0 10px;
+	padding: 10px 10px 10px 10px;
+	background-color: #fff;
+	border: #000 solid 3px;
 }

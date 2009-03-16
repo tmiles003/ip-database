@@ -13,7 +13,10 @@ class ApplicationController < ActionController::Base
   # from your application log (in this case, all fields with names like "password"). 
   # filter_parameter_logging :password
   
-  def ip_address?
-    #implement Ip address checking method.
+  def hide_subnet
+    render :update do |page|
+      page.visual_effect :toggle_blind, 'subnet'
+    end
   end
+    
 end

@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090306194715) do
+ActiveRecord::Schema.define(:version => 20090312212900) do
 
   create_table "static_ips", :force => true do |t|
     t.string   "address"
@@ -20,6 +20,13 @@ ActiveRecord::Schema.define(:version => 20090306194715) do
     t.boolean  "online"
     t.text     "description"
     t.string   "outside_ip"
+  end
+
+  create_table "subnets", :force => true do |t|
+    t.string   "network"
+    t.string   "network_name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end

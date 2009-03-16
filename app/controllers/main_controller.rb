@@ -5,10 +5,16 @@ class MainController < ApplicationController
   
   def search
     require 'resolv.rb'
+    require 'ipaddr'
     address = params[:search]
-    if ip_address?(address)
-      @dnsname = Resolv::getname(address)
-    else
+    network = IPAddr.new("10.0.0.0/8")
+    
+    begin
+      if network.include?(IPAddr.new(address))
+        @dnsname = Resolv::getname(address)
+      end
+    rescue ArgumentError
+      @dnsname = Resolv::getaddress(address)
     end
     render :partial => 'results'
   end

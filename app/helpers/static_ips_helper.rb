@@ -23,4 +23,5 @@ module StaticIpsHelper
         newservername = newservername.strip
     end
   end
+  
 end
