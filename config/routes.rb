@@ -1,5 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
   map.resources :static_ips, :collection => {:available => :get, :unavailable => :get }
+  map.resources :subnets
   
   map.with_options :controller => "main" do |main|
     main.dns "/main/dns", :action => "dns"

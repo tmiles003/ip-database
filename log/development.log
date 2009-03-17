@@ -20840,3 +20840,1375 @@ Processing MainController#index (for 127.0.0.1 at 2009-03-16 20:35:38) [GET]
 Rendering template within layouts/application
 Rendering main/index
 Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-03-16 22:02:51) [GET]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-03-16 22:02:51) [GET]
+
+
+MissingSourceFile (no such file to load -- mysql):
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:63:in `mysql_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:121:in `retrieve_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:113:in `connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (29.5ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (0.7ms)
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (2.6ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (2.7ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateStaticIps (20090305212048)
+  [4;36;1mSQL (2.8ms)[0m   [0;1mCREATE TABLE "static_ips" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "address" varchar(255), "servername" varchar(255), "available" boolean, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (2.7ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090305212048')[0m
+Migrating to AddOnlineColumn (20090305214510)
+  [4;36;1mSQL (2.3ms)[0m   [0;1mALTER TABLE "static_ips" ADD "online" boolean[0m
+  [4;35;1mSQL (5.6ms)[0m   [0mVACUUM[0m
+  [4;36;1mSQL (2.6ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090305214510')[0m
+Migrating to AddDescOutsideipColumn (20090306194715)
+  [4;35;1mSQL (2.3ms)[0m   [0mALTER TABLE "static_ips" ADD "description" text[0m
+  [4;36;1mSQL (5.0ms)[0m   [0;1mVACUUM[0m
+  [4;35;1mSQL (2.9ms)[0m   [0mALTER TABLE "static_ips" ADD "outside_ip" varchar(255)[0m
+  [4;36;1mSQL (5.9ms)[0m   [0;1mVACUUM[0m
+  [4;35;1mSQL (3.5ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090306194715')[0m
+Migrating to CreateSubnets (20090312212900)
+  [4;36;1mSQL (2.7ms)[0m   [0;1mCREATE TABLE "subnets" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "network" varchar(255), "network_name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (2.8ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090312212900')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("static_ips")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("subnets")[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-03-16 23:21:38) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StaticIpsController#index (for 127.0.0.1 at 2009-03-16 23:21:50) [GET]
+  [4;36;1mStaticIp Load (0.4ms)[0m   [0;1mSELECT * FROM "static_ips" [0m
+Rendering template within layouts/application
+Rendering static_ips/index
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/static_ips]
+
+
+Processing StaticIpsController#available (for 127.0.0.1 at 2009-03-16 23:21:52) [GET]
+  [4;35;1mStaticIp Load (0.3ms)[0m   [0mSELECT * FROM "static_ips" WHERE ("static_ips"."available" = 'f') [0m
+Rendering template within layouts/application
+Rendering static_ips/available
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/static_ips/available]
+
+
+Processing StaticIpsController#hide_subnet (for 127.0.0.1 at 2009-03-16 23:21:55) [POST]
+  Parameters: {"authenticity_token"=>"d710b883f3037f0128117c31ee856d4563278582"}
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/static_ips/hide_subnet]
+
+
+Processing StaticIpsController#hide_subnet (for 127.0.0.1 at 2009-03-16 23:21:56) [POST]
+  Parameters: {"authenticity_token"=>"d710b883f3037f0128117c31ee856d4563278582"}
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/static_ips/hide_subnet]
+
+
+Processing StaticIpsController#hide_subnet (for 127.0.0.1 at 2009-03-16 23:21:57) [POST]
+  Parameters: {"authenticity_token"=>"d710b883f3037f0128117c31ee856d4563278582"}
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/static_ips/hide_subnet]
+
+
+Processing StaticIpsController#hide_subnet (for 127.0.0.1 at 2009-03-16 23:21:59) [POST]
+  Parameters: {"authenticity_token"=>"d710b883f3037f0128117c31ee856d4563278582"}
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/static_ips/hide_subnet]
+
+
+Processing StaticIpsController#hide_subnet (for 127.0.0.1 at 2009-03-16 23:22:00) [POST]
+  Parameters: {"authenticity_token"=>"d710b883f3037f0128117c31ee856d4563278582"}
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/static_ips/hide_subnet]
+
+
+Processing StaticIpsController#available (for 127.0.0.1 at 2009-03-16 23:22:02) [GET]
+  [4;36;1mStaticIp Load (0.3ms)[0m   [0;1mSELECT * FROM "static_ips" WHERE ("static_ips"."available" = 'f') [0m
+Rendering template within layouts/application
+Rendering static_ips/available
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/static_ips/available]
+
+
+Processing StaticIpsController#unavailable (for 127.0.0.1 at 2009-03-16 23:22:03) [GET]
+  [4;35;1mStaticIp Load (0.3ms)[0m   [0mSELECT * FROM "static_ips" WHERE ("static_ips"."available" = 't') [0m
+Rendering template within layouts/application
+Rendering static_ips/unavailable
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/static_ips/unavailable]
+
+
+Processing MainController#dns (for 127.0.0.1 at 2009-03-16 23:22:04) [GET]
+Rendering template within layouts/application
+Rendering main/dns
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/main/dns]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-03-16 23:22:06) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-03-16 23:25:24) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StaticIpsController#index (for 127.0.0.1 at 2009-03-16 23:25:25) [GET]
+  [4;36;1mStaticIp Load (0.4ms)[0m   [0;1mSELECT * FROM "static_ips" [0m
+Rendering template within layouts/application
+Rendering static_ips/index
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/static_ips]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-03-16 23:25:30) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.8', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.9', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.10', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.3ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.11', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.12', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.13', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.14', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.15', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.16', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.17', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.18', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.19', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.20', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.21', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.22', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.23', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.24', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.25', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.26', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.27', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.28', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.29', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.30', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.31', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.32', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.33', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.34', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.35', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.36', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.37', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.38', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.39', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.6ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.40', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.41', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.42', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.43', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.44', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.45', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.46', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.47', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.48', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.49', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.50', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.51', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.52', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.53', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.54', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.55', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.56', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.57', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.58', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.59', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.60', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.61', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.62', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.3ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.63', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.3ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.64', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.65', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.66', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.67', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.68', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.69', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.70', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.71', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.72', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.73', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.74', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.75', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.76', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.77', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.78', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.3ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.79', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.80', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.81', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.6ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.82', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.83', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.84', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.85', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.86', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.87', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.88', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.89', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.90', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.3ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.91', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.92', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.93', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.94', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.95', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.96', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.97', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.98', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.99', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.100', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.101', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.102', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.103', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.104', '2009-03-17 04:33:10')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:10', NULL, NULL, NULL, NULL, NULL, '10.0.160.105', '2009-03-17 04:33:10')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.106', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.3ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.107', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.108', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.109', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.110', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.111', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.112', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.113', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.114', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.115', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.116', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.117', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.118', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.119', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.120', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.121', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.122', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.123', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.124', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.125', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.126', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.127', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.128', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.6ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.129', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.3ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.130', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.2ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.131', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.2ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.132', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.133', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.134', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.135', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.136', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.137', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.138', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.139', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.140', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.141', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.142', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.143', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.144', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.145', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.146', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.147', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.3ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.148', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.149', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.3ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.150', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.151', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.152', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.153', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.154', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.155', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.156', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.157', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.158', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.159', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.160', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.6ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.161', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.162', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.163', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.164', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.165', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.166', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.167', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.168', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.169', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.6ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.170', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.171', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.172', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.173', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.174', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.175', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.176', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.177', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.6ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.178', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.179', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.180', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.181', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.182', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.183', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.184', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.185', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.186', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.187', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.188', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.189', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.190', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.191', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.192', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.193', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.194', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.195', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.196', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.8ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.197', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.198', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.3ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.199', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.200', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.201', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.202', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.203', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.204', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.205', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.206', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.207', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.208', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.209', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.210', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.211', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.212', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.213', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.214', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.215', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.216', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.217', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.218', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.219', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.220', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.221', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.222', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.223', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.224', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.225', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.226', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.227', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.228', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.229', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.230', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.231', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.232', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.233', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.234', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.235', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.236', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.237', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.238', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.239', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.3ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.240', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.241', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.242', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.5ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.243', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.244', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.245', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.246', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.247', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.248', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.4ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.249', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.250', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.3ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.251', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.4ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.252', '2009-03-17 04:33:11')[0m
+  [4;35;1mStaticIp Create (0.3ms)[0m   [0mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.253', '2009-03-17 04:33:11')[0m
+  [4;36;1mStaticIp Create (0.5ms)[0m   [0;1mINSERT INTO "static_ips" ("updated_at", "online", "available", "servername", "outside_ip", "description", "address", "created_at") VALUES('2009-03-17 04:33:11', NULL, NULL, NULL, NULL, NULL, '10.0.160.254', '2009-03-17 04:33:11')[0m
+
+
+Processing StaticIpsController#index (for 127.0.0.1 at 2009-03-16 23:34:49) [GET]
+  [4;35;1mStaticIp Load (15.4ms)[0m   [0mSELECT * FROM "static_ips" [0m
+Rendering template within layouts/application
+Rendering static_ips/index
+Completed in 72ms (View: 45, DB: 15) | 200 OK [http://localhost/static_ips]
+
+
+Processing StaticIpsController#available (for 127.0.0.1 at 2009-03-16 23:34:55) [GET]
+  [4;36;1mStaticIp Load (0.5ms)[0m   [0;1mSELECT * FROM "static_ips" WHERE ("static_ips"."available" = 'f') [0m
+Rendering template within layouts/application
+Rendering static_ips/available
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/static_ips/available]
+
+
+Processing StaticIpsController#unavailable (for 127.0.0.1 at 2009-03-16 23:34:56) [GET]
+  [4;35;1mStaticIp Load (0.5ms)[0m   [0mSELECT * FROM "static_ips" WHERE ("static_ips"."available" = 't') [0m
+Rendering template within layouts/application
+Rendering static_ips/unavailable
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/static_ips/unavailable]
+
+
+Processing StaticIpsController#index (for 127.0.0.1 at 2009-03-16 23:34:58) [GET]
+  [4;36;1mStaticIp Load (14.9ms)[0m   [0;1mSELECT * FROM "static_ips" [0m
+Rendering template within layouts/application
+Rendering static_ips/index
+Completed in 60ms (View: 34, DB: 15) | 200 OK [http://localhost/static_ips]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-03-16 23:37:18) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-03-16 23:49:03) [GET]
+Rendering template within layouts/application
+Rendering main/index
+
+
+ActionView::TemplateError (undefined local variable or method `new' for #<ActionView::Base:0x24431b0>) on line #1 of app/views/main/index.html.erb:
+1: <%= link_to static_ip_path(new) %>
+
+    app/views/main/index.html.erb:1
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:73:in `render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:256:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:367:in `_render_with_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:254:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1174:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:896:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:868:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1248:in `default_render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1254:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (35.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (0.8ms)
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-03-16 23:53:30) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StaticIpsController#index (for 127.0.0.1 at 2009-03-16 23:53:38) [GET]
+  [4;36;1mStaticIp Load (15.2ms)[0m   [0;1mSELECT * FROM "static_ips" [0m
+Rendering template within layouts/application
+Rendering static_ips/index
+Completed in 62ms (View: 36, DB: 15) | 200 OK [http://localhost/static_ips]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-03-16 23:53:47) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-03-16 23:53:47) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-03-16 23:55:04) [GET]
+Rendering template within layouts/application
+Rendering main/index
+
+
+ActionView::TemplateError (undefined local variable or method `new_subnets_path' for #<ActionView::Base:0x2330d18>) on line #1 of app/views/main/index.html.erb:
+1: <p><%= link_to 'New Subnet', new_subnets_path %></p>
+
+    app/views/main/index.html.erb:1
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:73:in `render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:256:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:367:in `_render_with_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:254:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1174:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:896:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:868:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1248:in `default_render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1254:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (31.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (0.8ms)
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-03-16 23:56:24) [GET]
+Rendering template within layouts/application
+Rendering main/index
+
+
+ActionView::TemplateError (undefined local variable or method `new_subnet' for #<ActionView::Base:0x2092d2c>) on line #1 of app/views/main/index.html.erb:
+1: <p><%= link_to 'New Subnet', new_subnet %></p>
+
+    app/views/main/index.html.erb:1
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:73:in `render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:256:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:367:in `_render_with_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:254:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1174:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:896:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:868:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1248:in `default_render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1254:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (29.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (0.7ms)
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-03-16 23:56:41) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-03-17 00:01:51) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-03-17 00:01:52) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-03-17 00:02:34) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SubnetsController#new (for 127.0.0.1 at 2009-03-17 00:03:02) [GET]
+
+
+ActionController::UnknownAction (No action responded to new. Actions: hide_subnet and index):
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing SubnetsController#new (for 127.0.0.1 at 2009-03-17 00:03:20) [GET]
+
+
+ActionController::UnknownAction (No action responded to new. Actions: hide_subnet and index):
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing SubnetsController#new (for 127.0.0.1 at 2009-03-17 00:36:04) [GET]
+Rendering template within layouts/application
+Rendering subnets/new
+
+
+ActionView::MissingTemplate (Missing template subnets/new.erb in view path /Users/thomas/Desktop/ip-database/app/views:):
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:95:in `find_full_path'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:16:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:332:in `new'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:332:in `_unmemoized__pick_template'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:70:in `_pick_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:256:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:367:in `_render_with_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:254:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1174:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:905:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `custom'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    /app/controllers/subnets_controller.rb:24:in `new'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing SubnetsController#new (for 127.0.0.1 at 2009-03-17 00:51:15) [GET]
+Rendering template within layouts/application
+Rendering subnets/new
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/subnets/new]
+
+
+Processing SubnetsController#new (for 127.0.0.1 at 2009-03-17 00:59:57) [GET]
+Rendering template within layouts/application
+Rendering subnets/new
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/subnets/new]
+
+
+Processing SubnetsController#new (for 127.0.0.1 at 2009-03-17 01:00:40) [GET]
+Rendering template within layouts/application
+Rendering subnets/new
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/subnets/new]
+
+
+Processing SubnetsController#new (for 127.0.0.1 at 2009-03-17 01:01:03) [GET]
+Rendering template within layouts/application
+Rendering subnets/new
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/subnets/new]
+
+
+Processing SubnetsController#new (for 127.0.0.1 at 2009-03-17 01:02:46) [GET]
+Rendering template within layouts/application
+Rendering subnets/new
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/subnets/new]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-03-17 01:03:13) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SubnetsController#new (for 127.0.0.1 at 2009-03-17 01:03:14) [GET]
+Rendering template within layouts/application
+Rendering subnets/new
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/subnets/new]
+
+
+Processing SubnetsController#new (for 127.0.0.1 at 2009-03-17 01:04:42) [GET]
+Rendering template within layouts/application
+Rendering subnets/new
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/subnets/new]
+
+
+Processing SubnetsController#new (for 127.0.0.1 at 2009-03-17 01:05:32) [GET]
+Rendering template within layouts/application
+Rendering subnets/new
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/subnets/new]
+
+
+Processing SubnetsController#new (for 127.0.0.1 at 2009-03-17 01:15:42) [GET]
+Rendering template within layouts/application
+Rendering subnets/new
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/subnets/new]
+
+
+Processing SubnetsController#new (for 127.0.0.1 at 2009-03-17 01:15:44) [GET]
+Rendering template within layouts/application
+Rendering subnets/new
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/subnets/new]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-03-17 01:18:54) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 59ms (View: 58, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SubnetsController#new (for 127.0.0.1 at 2009-03-17 01:18:56) [GET]
+Rendering template within layouts/application
+Rendering subnets/new
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/subnets/new]
+
+
+Processing SubnetsController#create (for 127.0.0.1 at 2009-03-17 01:19:24) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"d710b883f3037f0128117c31ee856d4563278582", "subnet"=>{"network"=>"10.0.160.0", "network_name"=>"Servers"}}
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.save):
+    /app/controllers/subnets_controller.rb:38:in `create'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:106:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:106:in `respond_to'
+    /app/controllers/subnets_controller.rb:37:in `create'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (28.5ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (0.7ms)
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing SubnetsController#create (for 127.0.0.1 at 2009-03-17 01:24:14) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"d710b883f3037f0128117c31ee856d4563278582", "subnet"=>{"network"=>"10.0.160.0", "network_name"=>"Servers"}}
+  [4;35;1mSubnet Create (0.4ms)[0m   [0mINSERT INTO "subnets" ("updated_at", "network", "network_name", "created_at") VALUES('2009-03-17 06:24:14', '10.0.160.0', 'Servers', '2009-03-17 06:24:14')[0m
+Redirected to #<Subnet:0x217035c>
+Completed in 11ms (DB: 0) | 302 Found [http://localhost/subnets]
+
+
+Processing SubnetsController#show (for 127.0.0.1 at 2009-03-17 01:24:14) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mSubnet Load (0.2ms)[0m   [0;1mSELECT * FROM "subnets" WHERE ("subnets"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering subnets/show
+
+
+ActionView::MissingTemplate (Missing template subnets/show.erb in view path /Users/thomas/Desktop/ip-database/app/views:):
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:95:in `find_full_path'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:16:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:332:in `new'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:332:in `_unmemoized__pick_template'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:70:in `_pick_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:256:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:367:in `_render_with_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:254:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1174:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:905:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `custom'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    /app/controllers/subnets_controller.rb:15:in `show'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-03-17 01:27:00) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SubnetsController#new (for 127.0.0.1 at 2009-03-17 01:27:04) [GET]
+Rendering template within layouts/application
+Rendering subnets/new
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/subnets/new]
+
+
+Processing SubnetsController#create (for 127.0.0.1 at 2009-03-17 01:27:44) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"d710b883f3037f0128117c31ee856d4563278582", "subnet"=>{"network"=>"10.0.10.0", "network_name"=>"ITS Lab"}}
+  [4;35;1mSubnet Create (0.3ms)[0m   [0mINSERT INTO "subnets" ("updated_at", "network", "network_name", "created_at") VALUES('2009-03-17 06:27:44', '10.0.10.0', 'ITS Lab', '2009-03-17 06:27:44')[0m
+Redirected to actionindex
+Completed in 11ms (DB: 0) | 302 Found [http://localhost/subnets]
+
+
+Processing SubnetsController#index (for 127.0.0.1 at 2009-03-17 01:27:44) [GET]
+  [4;36;1mSubnet Load (0.5ms)[0m   [0;1mSELECT * FROM "subnets" [0m
+Rendering template within layouts/application
+Rendering subnets/index
+
+
+ActionView::MissingTemplate (Missing template subnets/index.erb in view path /Users/thomas/Desktop/ip-database/app/views:):
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:95:in `find_full_path'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:16:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:332:in `new'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:332:in `_unmemoized__pick_template'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:70:in `_pick_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:256:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:367:in `_render_with_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:254:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1174:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:905:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `custom'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    /app/controllers/subnets_controller.rb:6:in `index'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)

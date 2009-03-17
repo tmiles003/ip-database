@@ -1,0 +1,16 @@
+<div id="main-content">
+<% form_for @subnet do |f| -%>
+	<p>
+		<%= f.label :network, "Subnet" %><br />
+		<%= f.text_field :network %>
+	</p>
+	<p>
+		<%= f.label :network_name, "Network Name" %><br />
+		<%= f.text_field :network_name %>
+	</p>
+	<p>
+		<%= f.submit "Create" %>
+	</p>
+	
+<% end -%>	
+</div>
