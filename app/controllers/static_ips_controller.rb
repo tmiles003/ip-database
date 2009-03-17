@@ -81,5 +81,13 @@ class StaticIpsController < ApplicationController
       format.html { redirect_to(static_ips_url) }
       format.xml  { head :ok }
     end 
-  end   
+  end
+  
+  def available
+    @static_ips = StaticIp.find(:all, :conditions => {:available => false})
+  end
+  
+  def unavailable
+    @static_ips = StaticIp.find(:all, :conditions => {:available => true })
+  end
 end

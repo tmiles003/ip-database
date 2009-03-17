@@ -5,29 +5,26 @@ class MainController < ApplicationController
   
   def search
     require 'resolv.rb'
-    require 'ipaddr'
-    address = params[:search]
-    network = IPAddr.new("10.0.0.0/8")
+    require 'IPAddr'
+    address = params[:lookup]
     
     begin
-      if network.include?(IPAddr.new(address))
+      new_ip = IPAddr.new(address) 
+      if new_ip.ipv4?
         @dnsname = Resolv::getname(address)
       end
     rescue ArgumentError
-      @dnsname = Resolv::getaddress(address)
+      begin
+        @dnsname = Resolv::getaddress(address)
+      rescue Resolv::ResolvError
+        flash[:error] = "Could not find DNS Record."
+      end
+    rescue Resolv::ResolvError
+      flash[:error] = "Could not find DNS Record."      
     end
     render :partial => 'results'
   end
   
   def dns
-
-  end
-  
-  def available
-    
-  end
-  
-  def unavailable
-    
-  end
+  end  
 end

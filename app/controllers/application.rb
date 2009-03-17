@@ -18,5 +18,12 @@ class ApplicationController < ActionController::Base
       page.visual_effect :toggle_blind, 'subnet'
     end
   end
-    
+  
+  after_filter :discard_flash_if_xhr
+  
+  protected
+  
+  def discard_flash_if_xhr
+    flash.discard if request.xhr?
+  end
 end
