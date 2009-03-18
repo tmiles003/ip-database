@@ -168,3 +168,11 @@ a:hover { color: #fff; background-color:#000; }
 	
 	margin: 0 auto 0 auto;
 }
+
+#flash_messages {
+	margin: 20px auto 5px auto;
+	padding: 10px 10px 10px 10px;
+	background-color: #fff;
+	border: #000 solid 3px;
+	
+}

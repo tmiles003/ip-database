@@ -61,7 +61,7 @@ class StaticIpsController < ApplicationController
 
     respond_to do |format|
       if @static_ip.update_attributes(params[:static_ip])
-        flash[:notice] = 'StaticIp was successfully updated.'
+        flash[:notice] = 'IP Address was successfully updated.'
         format.html { redirect_to(:action => :index) }
         format.xml  { head :ok }
       else
