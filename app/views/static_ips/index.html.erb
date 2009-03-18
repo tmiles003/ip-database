@@ -1,8 +1,5 @@
-<!--TODO
-Implement the ability to add subnets -->
-
 <div id="network"><%= link_to_remote '10.0.160.0', :url => { :action => 'hide_subnet' } %></div>
-<div id="subnet">
+<div id="subnet" style="display: none;">
 	<% for static_ip in @static_ips %>
 	  <div id="iplist">
 	    <div id="status">

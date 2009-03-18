@@ -5,7 +5,7 @@ namespace :db do
     ip_prefix = "10.0.160."
   
     (8..254).each do |i|
-      StaticIp.create(:address => ip_prefix+i.to_s)
+      StaticIp.create(:address => ip_prefix+i.to_s, :available => 'false')
     end
   end
 end

@@ -17,10 +17,10 @@ class MainController < ApplicationController
       begin
         @dnsname = Resolv::getaddress(address)
       rescue Resolv::ResolvError
-        flash[:error] = "Could not find DNS Record."
+        flash[:error] = "Could not find a DNS Record."
       end
     rescue Resolv::ResolvError
-      flash[:error] = "Could not find DNS Record."      
+      flash[:error] = "Could not find a DNS Record."      
     end
     render :partial => 'results'
   end
