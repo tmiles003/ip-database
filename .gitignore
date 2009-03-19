@@ -2,3 +2,4 @@
 database.yml
 .DS_Store
 .loadpath
+.project
