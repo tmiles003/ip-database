@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(:version => 20090318232712) do
     t.boolean  "online"
     t.text     "description"
     t.string   "outside_ip"
-    t.string   "subnet_id"
+    t.integer  "subnet_id"
   end
 
   create_table "subnets", :force => true do |t|

@@ -1,5 +1,7 @@
-<div id="network"><%= link_to_remote '10.0.160.0', :url => { :action => 'hide_subnet' } %></div>
-<div id="subnet" style="display: none;">
+<div id="network">
+	<%= link_to_remote @subnet.network, :url => { :action => 'hide_subnet' } %>
+</div>
+<div id="subnet">
 	<% for static_ip in @static_ips %>
 	  <div id="iplist">
 	    <div id="status">
@@ -7,7 +9,7 @@
 			<%= format_online_status(static_ip.online) %> 		
 		</div>
 		<div id="address">
-			<%= link_to static_ip.address, edit_static_ip_path(static_ip) %> | 
+			<%= link_to static_ip.address, edit_subnet_static_ip_path(@subnet.id, static_ip.id) %> | 
 	    	<%=h static_ip.outside_ip%>
 		</div>
 		<div id="servername"><em><%=h format_AD_member_server(static_ip.servername) %></em></div>

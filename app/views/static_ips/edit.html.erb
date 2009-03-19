@@ -1,6 +1,6 @@
 <div id="edit">
 	
-<% form_for(@static_ip) do |f| %>
+<% form_for(@static_ip, :url => subnet_static_ip_path) do |f| %>
   <h1><%= @static_ip.address %></h1>
   <%= f.error_messages %>
   <p>
@@ -21,7 +21,7 @@
   <p>
     <%= f.submit "Update", {:style => 'float: right'} %>
   </p>
-<%= link_to 'Back', static_ips_path %>
+<%= link_to 'Back', subnet_static_ips_path %>
 <% end %>
 
 

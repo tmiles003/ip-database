@@ -1,6 +1,6 @@
 <div id="subnet_index">
 	<% for subnet in @subnets %>
-		<div id="edit_link"><%= link_to 'Edit Subnet', edit_subnet_path(subnet) %></div>
-		<p><%= link_to subnet.network, subnet_static_ips_path(subnet) %> | <b><%=h subnet.network_name %></b></p>
+		<% if admin?%><div id="edit_link"><%= link_to 'Edit Subnet', edit_subnet_path(subnet) %></div><% end %>
+		<p><%= link_to subnet.network, subnet_static_ips_path(subnet.id) %> | <b><%=h subnet.network_name %></b></p>
 	<% end %>
 </div>

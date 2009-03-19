@@ -26,5 +26,16 @@ class MainController < ApplicationController
   end
   
   def dns
-  end  
+    
+  end
+  
+  def admin
+
+  end
+  
+#  def login 
+#    username = params[:username]
+#    password = params[:password]
+#  end
 end
+

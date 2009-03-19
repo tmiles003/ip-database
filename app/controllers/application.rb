@@ -29,9 +29,15 @@ class ApplicationController < ActionController::Base
   
   after_filter :discard_flash_if_xhr
   
+  helper_method :admin?
+  
   protected
   
   def discard_flash_if_xhr
     flash.discard if request.xhr?
+  end
+  
+  def admin?
+    false
   end
 end

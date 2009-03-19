@@ -32,4 +32,13 @@ module ApplicationHelper
       true
     end
   end
+  
+  def address_listing?(subnet_id)
+    if subnet_id.nil?
+      false
+    else
+      true
+    end
+  end
+    
 end

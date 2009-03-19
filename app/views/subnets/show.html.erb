@@ -1,0 +1,13 @@
+<p>
+  <b>Network:</b>
+  <%=h @subnet.network %>
+</p>
+
+<p>
+  <b>Network Name:</b>
+  <%=h @subnet.network_name %>
+</p>
+
+
+<%= link_to 'Edit', edit_subnet_path(@subnet) %> |
+<%= link_to 'Back', subnet_path %>

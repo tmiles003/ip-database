@@ -17,10 +17,11 @@
 		<div id="menu">
 			<ul>
 				<li><%= link_to "Home", root_url %>
-				<li><%= link_to "Subnets", subnets_path %></li>
-				<li><%= link_to "Available", '#' %></li>
-				<li><%= link_to "Unavailable", '#' %></li>
+				<% if admin? %><li><%= link_to "Subnets", subnets_path %></li><% end %>
+				<% if address_listing?(params[:subnet_id]) %><li><%= link_to "Available", available_subnet_static_ips_path %></li>
+				<li><%= link_to "Unavailable", unavailable_subnet_static_ips_path %></li><% end %>
 				<li><%= link_to "DNS Lookup", dns_path %></li>
+				<!--<li><%= link_to "Admin", admin_path %></li>-->
 			</ul>
 		</div>
 	</div>
