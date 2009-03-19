@@ -1,4 +1,10 @@
-<div id="main-content"><%= link_to 'New Subnet', new_subnet_path %>
-	
+<div id="main-content">	
+	<%= link_to 'New Subnet', new_subnet_path %>
+</div>
+
+<div id="network">
+	<% for subnet in @subnets %>
+		<p><%= link_to subnet.network, subnet_static_ips_path(subnet.id) %> | <b><%=h subnet.network_name %></b></p>
+	<% end %>
 </div>
 

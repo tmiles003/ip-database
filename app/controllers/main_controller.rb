@@ -1,6 +1,6 @@
 class MainController < ApplicationController
   def index
-    
+    @subnets = Subnet.find(:all)    
   end
   
   def search

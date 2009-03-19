@@ -24,4 +24,12 @@ module ApplicationHelper
         newservername = newservername.strip
     end
   end
+  
+  def show_flash?
+    if flash[:notice].nil?
+      false
+    else
+      true
+    end
+  end
 end

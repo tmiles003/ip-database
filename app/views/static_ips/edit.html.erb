@@ -1,4 +1,4 @@
-<div id="edit_ips">
+<div id="edit">
 	
 <% form_for(@static_ip) do |f| %>
   <h1><%= @static_ip.address %></h1>
@@ -19,7 +19,7 @@
 	<%= f.check_box :available %>
   </p><br />
   <p>
-    <%= f.submit "Update", {:style => 'float: right'}%>
+    <%= f.submit "Update", {:style => 'float: right'} %>
   </p>
 <%= link_to 'Back', static_ips_path %>
 <% end %>

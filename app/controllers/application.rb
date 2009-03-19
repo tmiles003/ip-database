@@ -19,6 +19,14 @@ class ApplicationController < ActionController::Base
     end
   end
   
+  def add_addresses(subnet, subnet_id)
+    subnet.strip!
+    ip_prefix = subnet.chop
+    (2..254).each do |i|
+      StaticIp.create(:address => ip_prefix+i.to_s, :available => false, :subnet_id => subnet_id)
+    end
+  end
+  
   after_filter :discard_flash_if_xhr
   
   protected

@@ -39,10 +39,12 @@ class SubnetsController < ApplicationController
         flash[:notice] = 'Subnet was successfully created.'
         format.html { redirect_to(:controller => 'main', :action => 'index') }
         format.xml  { render :xml => @subnet, :status => :created, :location => @subnet }
+        add_addresses(@subnet.network, @subnet.id)
       else
         format.html { render :action => "new" }
         format.xml  { render :xml => @subnet.errors, :status => :unprocessable_entity }
       end
+      
     end
   end
 

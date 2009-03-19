@@ -1,0 +1,21 @@
+<div id="edit">
+	
+<% form_for(@subnet) do |f| %>
+  <h1><%= @subnet.network %></h1>
+  <%= f.error_messages %>
+  <p>
+  	<%= f.label :network %><br />
+	<%= f.text_field :network %>
+  <p>
+    <%= f.label :network_name %><br />
+    <%= f.text_field :network_name %>
+  </p>
+  <br />
+  <p>
+    <%= f.submit "Update", {:style => 'float: right'} %>
+  </p>
+<%= link_to 'Back', subnets_path %>
+<% end %>
+
+
+</div>

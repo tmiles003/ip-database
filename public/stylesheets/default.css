@@ -15,6 +15,10 @@ pre {
   font-size: 11px;
 }
 
+h1 {
+	text-align: center;
+}
+
 a { color: #000; }
 a:visited { color: #666; }
 a:hover { color: #fff; background-color:#000; }
@@ -53,14 +57,6 @@ a:hover { color: #fff; background-color:#000; }
 #errorExplanation ul li {
   font-size: 12px;
   list-style: square;
-}
-
-.block {
-	border: #000 solid 4px; /*Testing Only*/
-}
-
-.subtest {
-	border: #900 solid 2px; /* Testing Only */
 }
 
 #wrapper {
@@ -136,6 +132,10 @@ a:hover { color: #fff; background-color:#000; }
 	
 }
 
+#network p {
+	line-height: 2;
+}
+
 #subnet {
 	margin: 0 0 0 10px;
 	padding: 10px 10px 10px 10px;
@@ -157,7 +157,7 @@ a:hover { color: #fff; background-color:#000; }
 	border: #000 solid 3px;
 }
 
-#edit_ips {
+#edit {
 	margin: 20px auto 5px auto;
 	padding: 10px 10px 10px 10px;
 	background-color: #fff;
@@ -175,4 +175,20 @@ a:hover { color: #fff; background-color:#000; }
 	background-color: #fff;
 	border: #000 solid 3px;
 	
+}
+
+#subnet_index {
+	display: block;
+	margin: 20px auto 5px auto;
+	padding: 10px 10px 10px 10px;
+	background-color: #fff;
+	border: #000 solid 3px;
+}
+
+#subnet_index p {
+	line-height: 2;	
+}
+
+#edit_link {
+	float: right;
 }
